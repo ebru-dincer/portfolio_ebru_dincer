@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #efece5;
+}
+
+.navbar {
+  background-color: #124b90;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar__item {
+  font-weight: 500;
+  margin: 1rem;
+  text-decoration: none;
+  color: white;
+}
+
+img {
+  width: 230px;
+  height: 90px;
+}/*# sourceMappingURL=main.css.map */
