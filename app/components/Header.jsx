@@ -5,13 +5,14 @@ import Image from "next/image";
 export default function Header() {
     return (
         <nav className="navbar">
-            <div className="navbar__logo">
-            <Image src={logo} />
+            <div>
+            <Image src={logo} className="navbar__logo"/>
             </div>
             <div className="navbar__content">
-            <a className="navbar__item" href="">About</a>
-            <a className="navbar__item" href="">Projects</a>
-            <a className="navbar__item" href="">Contact</a>
+            <a className="navbar__item" href="">ABOUT</a>
+            <a className="navbar__item" href="">SKILLS</a>
+            <a className="navbar__item" href="">PROJECTS</a>
+            <a className="navbar__item" href="">CONTACT</a>
             </div>
         </nav>
     );
