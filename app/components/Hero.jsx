@@ -7,11 +7,11 @@ export const lobster = Lobster({
     weight: "400",
     subsets: ['latin'],
     display: 'swap',
-  })
+})
 
 export default function Hero() {
     return (
-        <div className="hero-section">
+        <div className="hero-section" id="hero">
             <div>
             <h1 className={lobster.className}>Bienvenue !</h1>
             <p>Ce site est mon portfolio où j'y présente les projets que j'ai effectués durant ma formation Intégrateur web chez Openclassrooms.</p>

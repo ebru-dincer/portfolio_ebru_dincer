@@ -9,10 +9,10 @@ export default function Header() {
             <Image src={logo} className="navbar__logo"/>
             </div>
             <div className="navbar__content">
-            <a className="navbar__item" href="">ABOUT</a>
-            <a className="navbar__item" href="">SKILLS</a>
-            <a className="navbar__item" href="">PROJECTS</a>
-            <a className="navbar__item" href="">CONTACT</a>
+            <a className="navbar__item" href="#hero">ABOUT</a>
+            <a className="navbar__item" href="#skills">SKILLS</a>
+            <a className="navbar__item" href="#projects">PROJECTS</a>
+            <a className="navbar__item" href="#contact">CONTACT</a>
             </div>
         </nav>
     );

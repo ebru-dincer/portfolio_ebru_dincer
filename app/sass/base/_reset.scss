@@ -1,5 +1,13 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #efece5
+    background-color: $background-color
+}
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
 }

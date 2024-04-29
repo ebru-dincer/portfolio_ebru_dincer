@@ -1,0 +1,64 @@
+{
+    "skills" : [
+        {
+            "id" : "1",
+            "title" : "HTML 5",
+            "url" : "/icon/html_5.png",
+            "description" : "Le langage de balisage fondamentale du web."
+        },
+        {
+            "id" : "2",
+            "title" : "CSS 3",
+            "url" : "/icon/css_3.png",
+            "description" : "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+        },
+        {
+            "id" : "3",
+            "title" : "Javascript",
+            "url" : "/icon/javascript.png",
+            "description" : "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+        },
+        {
+            "id" : "4",
+            "title" : "React",
+            "url" : "/icon/react.png",
+            "description" : "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+        },
+        {
+            "id" : "5",
+            "title" : "Sass",
+            "url" : "/icon/sass.png",
+            "description" : "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+        }
+    ],
+    "projects" : [
+        {
+            "id" : "1",
+            "title" : "Sophie Bluel",
+            "description" : "Site portfolio d'une architecte d'intérieur avec système d'authentification.",
+            "link" : "https://github.com/ebru-dincer/Portfolio-de-Sophie-Bluel",
+            "cover" : "/images/portfolio_sophie.png"
+        },
+        {
+            "id" : "2",
+            "title" : "Kasa",
+            "description" : "Implémentation du front-end d'une application de location immobilière en utilisant React et React Router pour créer une expérience utilisateur moderne et réactive. Exécution du serveur avec Node.js.",
+            "link" : "https://github.com/ebru-dincer/Kasa",
+            "cover" : "/images/kasa.jpg"
+        },
+        {
+            "id" : "3",
+            "title" : "724 Events",
+            "description" : "Débugger et finaliser le développement d'un site one-page, avec Chrome Dev Tools et React Developer Tools. Exécution de tests unitaires et fonctionnels. Rédaction d'un cahier de recette.",
+            "link" : "https://github.com/ebru-dincer/724-events",
+            "cover" : "/images/724events.png"
+        },
+        {
+            "id" : "4",
+            "title" : "Argent Bank",
+            "description" : "Application bancaire avec tableau de bord complet et responsive. Modélisation des points d'accès de l'API avec Swagger.",
+            "link" : "https://github.com/ebru-dincer/ArgentBank",
+            "cover" : "/images/bank-tree.jpeg"
+        }
+    ]
+}
