@@ -12,6 +12,69 @@ html {
   scroll-behavior: smooth;
 }
 
+h2 {
+  text-align: center;
+  padding: 1rem;
+  font-size: 45px;
+}
+
+.contact-section {
+  background-color: #124b90;
+  padding: 20px 10px;
+}
+.contact-section__title {
+  position: relative;
+}
+.contact-section__title:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 4px;
+  width: 100px;
+  background-color: white;
+}
+.contact-section__cnt {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.contact-section__item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.contact-section__item a {
+  font-size: 30px;
+  font-weight: 400;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.contact-section__item a:visited {
+  color: #FFFFFF;
+}
+.contact-section__item a:hover {
+  text-shadow: 2px 1px 10px rgb(246, 163, 121);
+  transition: all 0.5s;
+}
+.contact-section__icon {
+  height: 35px;
+  width: 35px;
+  display: flex;
+  align-items: center;
+}
+.contact-section__gif {
+  width: 500px;
+  height: 500px;
+}
+
+.contact-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
 .navbar {
   background-color: #124b90;
   padding: 1rem;
@@ -76,6 +139,7 @@ html {
 h1 {
   font-size: 60px;
   margin-bottom: 0;
+  color: #F6a379;
 }
 
 .skills-section {
@@ -83,8 +147,6 @@ h1 {
   background-color: #124b90;
 }
 .skills-section__title {
-  text-align: center;
-  padding: 1rem;
   position: relative;
 }
 .skills-section__title:after {

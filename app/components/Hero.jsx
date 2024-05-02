@@ -1,13 +1,15 @@
 // import { Roboto } from "next/font/google";
-import { Lobster } from "next/font/google";
-import portrait from "../assets/portrait.jpg"
+// import { Lobster } from "next/font/google";
+import portrait from "../assets/portrait.jpg";
 import Image from "next/image";
+import { lobster } from "../styles/fonts.js";
 
-export const lobster = Lobster({
-    weight: "400",
-    subsets: ['latin'],
-    display: 'swap',
-})
+// export const lobster = Lobster({
+//     variable: "--font-lobster",
+//     weight: "400",
+//     subsets: ['latin'],
+//     display: 'swap',
+// })
 
 export default function Hero() {
     return (

@@ -1,6 +1,8 @@
 import Image from "next/image";
 // import { skillsData } from "../data";
-import { getData } from "../api/data"
+import { getData } from "../api/data";
+import { lobster } from "../styles/fonts.js";
+
 
 export default async function Skills() {
 
@@ -9,7 +11,7 @@ export default async function Skills() {
   return (
     <section className="skills-section" id="skills">
       <div className="skills-section__title">
-        <h2>SKILLS</h2>
+        <h2 className={lobster.className}>Skills</h2>
       </div>
       <div className="skills-cntr" >
         {data.skills.map(({ id, title, url, description }) => (

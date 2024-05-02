@@ -1,0 +1,65 @@
+.contact-section {
+    background-color: $primary-color;
+    padding: 20px 10px;
+
+    &__title {
+        position: relative;
+    }
+
+    &__title:after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 4px;
+        width: 100px;
+        background-color: white;
+    }
+
+    &__cnt {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    &__item a {
+        font-size: 30px;
+        font-weight: 400;
+        color: $secondary-color;
+        text-decoration: none;
+    }
+
+    &__item a:visited {
+        color: $secondary-color;
+    }
+
+    &__item a:hover {
+        text-shadow: 2px 1px 10px rgba(246, 163, 121, 1);
+        transition: all 0.5s;
+    }
+
+    &__icon {
+        height: 35px;
+        width: 35px;
+        display: flex;
+        align-items: center;
+    }
+
+    &__gif {
+        width: 500px;
+        height: 500px;
+    }
+}
+
+.contact-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
