@@ -23,14 +23,14 @@ export default  function Contact() {
             </div>
             <div className="contact-section__item">
                 <Image src={linkedin} alt="Icône Linked in" className="contact-section__icon" />
-                <a href="www.linkedin.com/in/ebru-dincer6">linkedin.com/in/ebru-dincer6</a>
+                <a href="https://linkedin.com/in/ebru-dincer6">linkedin.com/in/ebru-dincer6</a>
             </div>
             <div className="contact-section__item">
                 <Image src={github} alt="Icône Github" className="contact-section__icon" />
                 <a href="https://github.com/ebru-dincer">github.com/ebru-dincer</a>
             </div>           
         </div>
-            <Image src={gif_contact} className="contact-section__gif"/>
+            <Image src={gif_contact} className="contact-section__gif" alt="Image design" />
         </div>
     </footer>
   );

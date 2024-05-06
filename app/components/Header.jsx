@@ -6,7 +6,7 @@ export default function Header() {
     return (
         <nav className="navbar">
             <div>
-            <Image src={logo} className="navbar__logo"/>
+            <Image src={logo} className="navbar__logo" alt="Logo du portfolio" />
             </div>
             <div className="navbar__content">
             <a className="navbar__item" href="#hero">ABOUT</a>

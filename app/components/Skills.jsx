@@ -19,7 +19,7 @@ export default async function Skills() {
           <div className="skills-cntr__box" key={id}>
             <div className="skills-cntr__title">
               <div className="skills-cntr__logo">
-                <Image src={url} width={50} height={50} />
+                <Image src={url} width={50} height={50} alt="Logo des skills" />
               </div>
               <h3>{title}</h3>
             </div>

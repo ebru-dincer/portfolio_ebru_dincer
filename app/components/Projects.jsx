@@ -14,13 +14,13 @@ export default async function Projects() {
       </div>
       <ul id="cards">
         {data.projects.map(({ id, title, description, link, cover }) => (
-          <li class="card" id={"card_" + id} key={id}>
-            <div class="card__content">
+          <li className="card" id={"card_" + id} key={id}>
+            <div className="card__content">
               <div>
                 <h4>{title}</h4>
                 <p>{description}</p>
                 <p>
-                  <a href={link} class="btn btn--accent">
+                  <a href={link} className="btn btn--accent">
                     Lien Github
                   </a>
                 </p>
