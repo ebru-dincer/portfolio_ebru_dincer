@@ -2,14 +2,24 @@
 	--card-height: 40vw;
 	--card-margin: 4vw;
 	--card-top-offset: 1em;
-	// --numcards: 4;
+	--numcards: 4;
 	--outline-width: 0px;
+
+	// @media (max-width: 768px) {
+	// 	--card-height: 30vw;
+	// 	--card-margin: 2vw;
+	// }
 }
 
 .projects-section {
     width: 70vw;
     margin: 0 auto;
     text-align: center;
+
+	@media (max-width: 900px) {
+		width: 90%;
+	}
+	
 }
 
 #cards {
@@ -72,7 +82,6 @@
         animation-timeline: --cards-element-scrolls-in-body;
         animation-range: exit-crossing var(--start-range) exit-crossing var(--end-range);
     }
-	
 }
 
 #cards {
@@ -83,6 +92,10 @@
 	grid-template-columns: 1fr;
 	grid-template-rows: repeat(var(--numcards), var(--card-height));
 	gap: var(--card-margin);
+
+	@media (max-width: 899.98px) {
+		display: none;
+	}
 }
 
 .card {
@@ -112,7 +125,6 @@
 	text-align: left;
 
 	display: grid;
-	// gap: 1em;
 	gap: 3em;
 	place-items: start;
 }
@@ -153,4 +165,54 @@ h4 {
 	padding: 0.5em;
 	border-radius: 0.25em;
     margin-bottom: 1em; /* ajout */
+}
+
+.mobile-cards {
+	list-style: none;
+	padding: 0;
+
+	@media (min-width: 899.98px) {
+		display: none;
+	}
+
+	&__card {
+		margin-bottom: 30px;
+
+		figure {
+			overflow: hidden;
+			margin: 0;
+		}
+
+		figure > img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+
+		&--content {
+			box-shadow: 0 0.2em 1em rgba(0, 0, 0, 0.1), 0 1em 2em rgba(0, 0, 0, 0.1);
+			background: rgb(255, 255, 255);
+			color: rgb(10, 5, 7);
+			border-radius: 1em;
+			overflow: hidden;
+		
+			display: grid;
+			grid-template-areas: "text img";
+			grid-template-columns: 1fr 1fr;
+			grid-template-rows: auto;
+		
+			align-items: stretch;
+
+			div {
+				grid-area: text;
+				width: 80%;
+				place-self: center;
+				text-align: left;
+			
+				display: grid;
+				gap: 1em;
+				place-items: start;
+			}
+		}
+	}
 }

@@ -37,6 +37,31 @@ export default async function Projects() {
           </li>
         ))}
       </ul>
+      <ul className="mobile-cards">
+        {data.projects.map(({ id, title, description, link, cover }) => (
+          <li className="mobile-cards__card"  key={id}>
+            <div className="mobile-cards__card--content">
+              <div>
+                <h4>{title}</h4>
+                <p>{description}</p>
+                <p>
+                  <a href={link} className="btn btn--accent">
+                    Lien Github
+                  </a>
+                </p>
+              </div>
+              <figure>
+                <Image
+                  src={cover}
+                  alt="Capture d'écran de projet"
+                  width="500"
+                  height="500"
+                />
+              </figure>
+            </div>
+          </li>
+        ))}
+      </ul>
     </section>
   );
 }
