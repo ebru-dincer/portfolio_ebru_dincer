@@ -39,10 +39,10 @@ export default async function Projects() {
       </ul>
       <ul className="mobile-cards">
         {data.projects.map(({ id, title, description, link, cover }) => (
-          <li className="mobile-cards__card"  key={id}>
+          <li className="mobile-cards__card" key={id}>
             <div className="mobile-cards__card--content">
               <div>
-                <h4>{title}</h4>
+                <h3>{title}</h3>
                 <p>{description}</p>
                 <p>
                   <a href={link} className="btn btn--accent">

@@ -159,6 +159,7 @@ h2 {
   margin: 80px 10%;
   text-align: justify;
   display: flex;
+  align-items: center;
 }
 @media (max-width: 768px) {
   .hero-section {
