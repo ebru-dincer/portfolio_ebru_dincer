@@ -17,7 +17,7 @@ export default async function Projects() {
           <li className="card" id={"card_" + id} key={id}>
             <div className="card__content">
               <div>
-                <h4>{title}</h4>
+                <h3>{title}</h3>
                 <p>{description}</p>
                 <p>
                   <a href={link} className="btn btn--accent">
