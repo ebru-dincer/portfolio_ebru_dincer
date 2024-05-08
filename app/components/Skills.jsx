@@ -21,7 +21,7 @@ export default async function Skills() {
               <div className="skills-cntr__logo">
                 <Image src={url} width={50} height={50} alt="Logo des compétences" />
               </div>
-              <h4>{title}</h4>
+              <p>{title}</p>
             </div>
           </div>
         ))}

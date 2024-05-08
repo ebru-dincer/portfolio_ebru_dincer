@@ -276,8 +276,9 @@ h1 {
   background-color: white;
   transition: 0.5s;
 }
-.skills-cntr__title h4 {
+.skills-cntr__title p {
   margin: 0.5rem;
+  font-weight: bold;
 }
 .skills-cntr__logo {
   transition: 0.5s;
