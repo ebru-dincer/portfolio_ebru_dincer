@@ -1,7 +1,11 @@
-import logo from "../assets/logo_resize.png";
+import logo from "../assets/logo_resize.webp";
 import Image from "next/image";
-// import logo2 from "../assets/logo.jpg"
 
+
+/**
+ * This component renders the header component.
+ * @returns {jsx} <Header />
+ */
 export default function Header() {
   return (
     <nav className="navbar">

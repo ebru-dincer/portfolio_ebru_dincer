@@ -4,11 +4,6 @@
 	--card-top-offset: 1em;
 	--numcards: 4;
 	--outline-width: 0px;
-
-	// @media (max-width: 768px) {
-	// 	--card-height: 30vw;
-	// 	--card-margin: 2vw;
-	// }
 }
 
 .projects-section {
@@ -23,8 +18,8 @@
 }
 
 #cards {
-	padding-bottom: calc(var(--numcards) * var(--card-top-offset)); /* Make place at bottom, as items will slide to that position*/
-	margin-bottom: var(--card-margin); /* Don't include the --card-margin in padding, as that will affect the scroll-timeline*/
+	padding-bottom: calc(var(--numcards) * var(--card-top-offset));
+	margin-bottom: var(--card-margin); 
 }
 
 #card_1 {
@@ -57,9 +52,9 @@
 @supports (animation-timeline: view()) {
 
     .card {
-        --index0: calc(var(--index) - 1); /* 0-based index */
-        --reverse-index: calc(var(--numcards) - var(--index0)); /* reverse index */
-        --reverse-index0: calc(var(--reverse-index) - 1); /* 0-based reverse index */
+        --index0: calc(var(--index) - 1); 
+        --reverse-index: calc(var(--numcards) - var(--index0));
+        --reverse-index0: calc(var(--reverse-index) - 1); 
     }
 
     @keyframes scale {
@@ -144,11 +139,6 @@
 	height: 100%;
 	object-fit: cover;
 }
-
-// h1 {
-// 	font-weight: 300;
-// 	font-size: 3.5em;
-// }
 
 h3 {
 	font-weight: 300;

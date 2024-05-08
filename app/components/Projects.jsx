@@ -1,9 +1,11 @@
 import Image from "next/image";
-import { skillsData } from "../data";
 import { getData } from "../api/data";
 import { lobster } from "../styles/fonts.js";
 
-
+/**
+ * This component renders the projects component.
+ * @returns {jsx} <Projects />
+ */
 export default async function Projects() {
   const data = await getData();
 
