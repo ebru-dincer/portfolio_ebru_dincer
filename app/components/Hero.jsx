@@ -1,6 +1,6 @@
 // import { Roboto } from "next/font/google";
 // import { Lobster } from "next/font/google";
-import portrait from "../assets/portrait.jpg";
+import portrait from "../assets/portrait.webp";
 import Image from "next/image";
 import { lobster } from "../styles/fonts.js";
 

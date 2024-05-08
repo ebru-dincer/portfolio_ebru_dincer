@@ -37,28 +37,28 @@
             "title" : "Sophie Bluel",
             "description" : "Site portfolio d'une architecte d'intérieur avec système d'authentification.",
             "link" : "https://github.com/ebru-dincer/Portfolio-de-Sophie-Bluel",
-            "cover" : "/images/portfolio_sophie.png"
+            "cover" : "/images/portfolio_sophie.webp"
         },
         {
             "id" : "2",
             "title" : "Kasa",
             "description" : "Implémentation du front-end d'une application de location immobilière avec React Router pour une expérience utilisateur moderne et réactive. Exécution du serveur avec Node.js.",
             "link" : "https://github.com/ebru-dincer/Kasa",
-            "cover" : "/images/kasa.jpg"
+            "cover" : "/images/kasa.webp"
         },
         {
             "id" : "3",
             "title" : "724 Events",
             "description" : "Débugger un site one-page, avec Chrome Dev Tools et React Developer Tools. Exécution de tests unitaires et fonctionnels. Rédaction d'un cahier de recette.",
             "link" : "https://github.com/ebru-dincer/724-events",
-            "cover" : "/images/724events.png"
+            "cover" : "/images/724events.webp"
         },
         {
             "id" : "4",
             "title" : "Argent Bank",
             "description" : "Application bancaire avec tableau de bord complet et responsive. Modélisation des points d'accès de l'API avec Swagger.",
             "link" : "https://github.com/ebru-dincer/ArgentBank",
-            "cover" : "/images/bank-tree.jpeg"
+            "cover" : "/images/bank-tree.webp"
         }
     ]
 }
