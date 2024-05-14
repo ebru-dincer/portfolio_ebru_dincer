@@ -15,12 +15,13 @@ export default async function Projects() {
         <h2 className={lobster.className}>Projects</h2>
       </div>
       <ul id="cards">
-        {data.projects.map(({ id, title, description, link, cover }) => (
+        {data.projects.map(({ id, title, description, link, cover, skills }) => (
           <li className="card" id={"card_" + id} key={id}>
             <div className="card__content">
               <div>
                 <h3>{title}</h3>
                 <p>{description}</p>
+                <p>{skills}</p>
                 <p>
                   <a href={link} className="btn btn--accent">
                     Lien Github
@@ -40,12 +41,13 @@ export default async function Projects() {
         ))}
       </ul>
       <ul className="mobile-cards">
-        {data.projects.map(({ id, title, description, link, cover }) => (
+        {data.projects.map(({ id, title, description, link, cover, skills }) => (
           <li className="mobile-cards__card" key={id}>
             <div className="mobile-cards__card--content">
               <div>
                 <h3>{title}</h3>
                 <p>{description}</p>
+                <p>{skills}</p>
                 <p>
                   <a href={link} className="btn btn--accent">
                     Lien Github

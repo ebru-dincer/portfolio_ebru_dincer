@@ -18,11 +18,11 @@ export default function Header() {
         <a className="navbar__item" href="#hero">
           ABOUT
         </a>
-        <a className="navbar__item" href="#skills">
-          SKILLS
-        </a>
         <a className="navbar__item" href="#projects">
           PROJECTS
+        </a>
+        <a className="navbar__item" href="#skills">
+          SKILLS
         </a>
         <a className="navbar__item" href="#contact">
           CONTACT
